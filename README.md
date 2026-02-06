@@ -22,7 +22,9 @@
 
 ## ⚠️ Disclaimer
 
-> **IMPORTANT:** This tool is for **Educational Purposes Only**. Unauthorized scanning of websites you do not own or have explicit permission to test is illegal. The developer (Azhar) is not responsible for any misuse of this tool. Use it to learn and secure the web, not to destroy it.
+> **IMPORTANT:** This tool is for **Educational Purposes Only**. Unauthorized scanning of websites
+> you do not own or have explicit permission to test is illegal. The developer (Azhar) is not
+> responsible for any misuse of this tool. Use it to learn and secure the web, not to destroy it.
 
 ---
 
@@ -32,11 +34,13 @@ Copy and paste the following commands into your Termux terminal to get started:
 
 ```bash
 # Update system and install dependencies
+
 pkg update && pkg upgrade -y
+
 pkg install python git termux-api -y
 
-# Clone the repository
-git clone [https://github.com/YOUR_USERNAME/HCO-Web-Sentry](https://github.com/YOUR_USERNAME/HCO-Web-Sentry)
+# Clone the repository[
+https://github.com/Hackerscolonyofficial/HCO-Web-Sentry.git
 
 # Enter the directory
 cd HCO-Web-Sentry
@@ -45,9 +49,13 @@ cd HCO-Web-Sentry
 python HCO-Web-Sentry.py
 
 ```
-Note: Make sure you have the Termux:API app installed from F-Droid to allow the YouTube redirection to work.
+Note: Make sure you have the Termux:API app installed from F-Droid to allow the 
+YouTube redirection to work.
 🛠️ How it Works
-The tool uses a modular Python wrapper to interface with the Nikto Vulnerability Engine. By leveraging specific tuning flags, it can isolate different types of vulnerabilities:
+The tool uses a modular Python wrapper to interface with the Nikto Vulnerability 
+Engine. By leveraging specific tuning flags, it can isolate different types of 
+vulnerabilities:
+
 -Tuning b: Focuses on server banner grabbing and software versions.
 -mutate 1: Attempts to guess hidden file names based on common patterns.
 -Cgidirs all: Scans all possible CGI directories for execution vulnerabilities.
@@ -55,5 +63,5 @@ The tool uses a modular Python wrapper to interface with the Nikto Vulnerability
 ### 👨‍💻 Developed By Azhar
 YouTube: https://youtube.com/@hackers_colony_tech?si=eDMKGduIEq1MUVWg
 Goal: Making Cybersecurity accessible for everyone.
-"A hacker is someone who is not satisfied with the way things are, but has the curiosity and the passion to see how they could be."
-— Code by Azhar
+"A hacker is someone who is not satisfied with the way things are, but has the 
+curiosity and the passion to see how they could be."
